@@ -1,0 +1,170 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses":[
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there,what can I do for you?",
+                "Hi there, how can I help?"
+                ]
+        },
+        {
+            "tag":"introduction",
+            "patterns":[
+                "What is the purpose of this platform?",
+                "What can I do with this platform?",
+                "What are the features of this platform?",
+                "How does this platform work?",
+                "What is the function of this platform?"
+                ],
+            "responses":[
+               "You can connect with mentors who have the desired specialities and achievements through this platform . It offers one on one sessions.",
+               "This platform enables you to have one on one sessions with mentors who have the desired specialties and achievements.",
+               "You can connect with mentors who have the desired specialties and achievements through this platform. It offers personalized one on one sessions.",
+               "This platform provides you with the opportunity to connect with mentors who have the desired specialties and achievements. It offers one on one sessions."
+               ]
+        },
+        {
+            "tag":"Mentorship meaning",
+            "patterns":[
+                "What is mentoring and what are its benefits?",
+                "How does mentoring work and what are its benefits?",
+                "What is the purpose of mentoring and how does it work?",
+                "What is the definition of mentoring and how does it work?",
+                "What is the process of mentoring and how does it work1"
+                ],
+            "responses":[
+                "Mentoring is a process where an experienced individual provides guidance and support to a less experienced person for their professional or personal development.",
+                "The mentor provides guidance, advice, and support to the mentee for their professional or personal development.",
+                "Mentoring is a process where an experienced individual provides guidance and support to the mentee.",
+                "The mentor provides guidance and support to the mentee for their professional or personal development.",
+                "Mentoring is a process where an experienced individual provides guidance and advice to the mentee for their professional or personal development."]
+        },
+        {
+            "tag":"searching for mentor",
+            "patterns":[
+                "How do I find a mentor on this website?",
+                "What is the process for finding a mentor on this website?",
+                "How can I connect with a mentor on this website?",
+                "What are the steps to finding a mentor on this website?",
+                "How can I get in touch with a mentor on this website?"
+                ],
+                "responses":[
+                    "You can find a suitable mentor by specifying the mentor’s qualifications.",
+                    "Mentioning the mentor’s qualifications can help you find a suitable mentor.",
+                    "You can find a suitable mentor by specifying the desired qualifications.",
+                    "By specifying the desired qualifications, you can find a suitable mentor.",
+                    "You can find a suitable mentor by specifying what you are looking for in a mentor."]
+        },
+        {
+            "tag":"Mentor regestration",
+            "patterns":[
+                "What is the process for becoming a mentor on this platform?",
+                "How can I sign up to become a mentor on this platform?",
+                "What are the requirements for becoming a mentor on this platform?",
+                "How do I become a mentor on this platform?",
+                "What steps do I need to take to become a mentor on this platform?"],
+            "responses":[
+                "You can easily become a mentor by filling out the mentor registration form and providing us with some of your details.",
+                "By filling out the mentor registration form and providing us with some of your details, you can become a mentor.",
+                 "If you provide us with some of your details through the mentor registration form, you can easily become a mentor.",
+                 "Simply fill out the mentor registration form and provide us with some of your details to become a mentor.",
+                 "You can become a mentor by providing us with some of your details through the mentor registration form."]
+        },
+        {
+            "tag":"mentor charge for mentors",
+            "patterns":[
+                "Is it possible to conduct paid sessions?",
+                "Can I offer paid sessions?",
+                "Is it allowed to conduct paid sessions?",
+                "Can I charge for one on one sessions?",
+                "Is it permissible to conduct paid sessions?1"],
+            "responses":[
+                "Yes, you can conduct both free and paid sessions with your followers.",
+                "You can conduct both free and paid sessions with your followers.",
+                "It is possible to conduct both free and paid sessions with your followers.",
+                "You have the option to conduct both free and paid sessions with your followers.",
+                "You can conduct sessions with your followers for free or for a fee1"]
+        },
+        {
+            "tag":"mentorship charge questions for user",
+            "patterns":[
+                "Is mentorship free of charge?",
+                "Do I need to pay for mentorship?",
+                "Is there a fee for mentorship?",
+                "Is mentorship paid or free?",
+                "Do I have to pay for one on one sessions with mentors1"
+                ],
+            "responses":[
+                "The availability of paid and free sessions depends on the mentors.",
+                "Paid and free sessions are available depending on the mentor.",
+                "The mentor determines whether the session is paid or free.",
+                "Whether a session is paid or free depends on the mentor.",
+                "The mentor decides whether the session is paid or free."]
+        },
+        {
+            "tag":"platform charge",
+            "patterns":[
+                "Is this platform free of charge?",
+                "Do I have to pay for this platform?",
+                "Is there a fee for using this platform?",
+                "Is this platform paid or free?",
+                "Is it necessary to pay for using this platform1"
+                ],
+            "responses":[
+                "You can use our platform for free and we only charge a small commission (5%) on your earnings so that we grow only when you grow.",
+                "Our platform is free to use and we only charge a small commission (5%) on your earnings so that we grow only when you grow.",
+                "You can use our platform for free and we charge a very small commission (5%) on your earnings so that we grow only when you grow.",
+                "Our platform is free to use and we charge a very small commission (5%) on your earnings so that we grow only when you grow.",
+                "You can use our platform for free and we take a very small commission (5%) on your earnings so that we grow only when you grow."]
+        },
+        {
+            "tag":"goodbye",
+            "patterns":["Bye","See you later","Goodbye"],
+            "responses":[
+                "See you later,thanks for visiting",
+                "Have a nice day",
+                "bye! Come back again soon."
+                ]
+            },
+            {
+                "tag":"thanks",
+                "patterns":["Thanks","Thank you","That's helpful","That's a lot"],
+                "responses":["Happy to help!","Any time!","My pleasure"]
+            },
+            {
+                "tag":"payments",
+                "patterns":[
+                    "Do you take credit cards?",
+                    "Do you accept Mastercard?",
+                    "Can I pay with Payth",
+                    "Can I pay with UPI?"
+                    ],
+                "responses":[
+                    "We accept credit cards,mastercards , Paytm and UPI",
+                    "We accept most major credit cars, and UPI"
+                    ]
+            },
+            {
+                "tag":"funny",
+                "patterns":[
+                    "Tell me a joke!",
+                    "Rell me something funny!",
+                    "Do you know a joke?"
+                    ],
+                "responses":[
+                    "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                    "What dis the buffalo say when his son left for college?Bison,"
+                    ]
+            }
+        ]
+}
